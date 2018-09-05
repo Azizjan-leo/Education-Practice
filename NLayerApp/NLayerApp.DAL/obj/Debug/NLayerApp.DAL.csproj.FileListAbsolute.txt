@@ -1,0 +1,14 @@
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\NLayerApp.DAL.dll.config
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\NLayerApp.DAL.dll
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\NLayerApp.DAL.pdb
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\EntityFramework.dll
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\EntityFramework.xml
+D:\work\NLayerApp\NLayerApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.dll
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.pdb
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.Migrations.lol.resources
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.csproj.GenerateResource.Cache
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.csprojAssemblyReference.cache
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.csproj.CoreCompileInputs.cache
+D:\work\NLayerApp\NLayerApp.DAL\obj\Debug\NLayerApp.DAL.csproj.CopyComplete

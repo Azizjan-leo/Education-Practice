@@ -1,0 +1,62 @@
+﻿@model IEnumerable<NLayerApp.WEB.Models.LeaseListVM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Author)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GetTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReturnTime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GetTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReturnTime)
+        </td>
+        <td>
+            @Html.ActionLink("Return", "Return", new { id = item.LeaseId }) |
+            @Html.ActionLink("Edit", "Edit", new {  id=item.LeaseId  }) 
+        </td>
+    </tr>
+}
+
+</table>
